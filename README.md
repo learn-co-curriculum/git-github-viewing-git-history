@@ -61,7 +61,7 @@ variations of the `git diff` command that are commonly used:
 > on our active branch. For now, you can just think of `HEAD` as a reference to
 > the latest commit in the current working branch.
 
-#### An Example
+#### Diffing Example: Backyard Bird List
 
 Let's say that we've recently become interested in birdwatching (or, to use the
 preferred term, _birding_), and we want to start keeping a list of all the birds
@@ -164,6 +164,8 @@ If you check the preview again, it should now look like this:
 ![markdown file preview with list format](https://curriculum-content.s3.amazonaws.com/phase-1/git-github/viewing-git-history/preview-list-format.png)
 
 Much better!
+
+##### Reading the Ouput of `git diff`
 
 Next, let's run `git diff`; you should see something like the following:
 
