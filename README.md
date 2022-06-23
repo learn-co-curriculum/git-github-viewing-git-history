@@ -12,7 +12,8 @@ how to write good commit messages. Following good practices for making commits
 means that we have a complete and accurate history of the status of our code.
 But Git also allows us to interact with our commits in various ways to get
 detailed information about what changes were made and when, as well as to undo
-or amend those changes. In this lesson, we will learn how to use [`git diff`][git-diff] and [`git log`][git-log] to explore our Git history. Then, in
+or amend those changes. In this lesson, we will learn how to use [`git
+diff`][git-diff] and [`git log`][git-log] to explore our Git history. Then, in
 the next lesson, we'll learn some Git commands that can be used to undo changes.
 
 ## Diffing
@@ -103,7 +104,10 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 We're creating a [markdown][] file (indicated by the `.md` extension) so we can
-use GitHub markdown to add some formatting to our file.
+use GitHub markdown to add some formatting to our file. Markdown provides a
+simple syntax for adding common formatting (bold or italics, headings, links,
+images, ordered and unordered lists, etc.) to a text file without having to
+write HTML.
 
 Next we'll stage our new file and make our initial commit:
 
@@ -521,6 +525,15 @@ it's a multiline commit message).
 The second helpful option is `-n` (where `n` represents a number), which just
 shows the `n` most recent commits. For example, `git log -1` would show the most
 recent commit, `git log -3` would show the last three, etc. Give it a try!
+
+## Check for Understanding
+
+Before moving on to the next lesson, check for your understanding of this
+material by describing the following in your own words:
+
+1. What is `HEAD`?
+2. What do each of the following commands show: `git diff`, `git diff --staged`,
+   and `git diff HEAD`?
 
 ## Conclusion
 
